@@ -1,0 +1,192 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#navBarSection{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #328873;
+    color: #FFFFFF;
+    padding: 0px 40px;
+    align-items: center;
+}
+ul{
+display: flex;
+gap: 20px;
+align-items: center;
+}
+li{
+    list-style: none;
+}
+/* navbarEnd */
+/* bannerSectionStart */
+#bannersection{
+    background-image: url(./business-people-holding-word-careers\ 1.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#colorfulWord{
+    color: #00D916;
+}
+/* bannersectionEndd */
+/* aboutUsSectionStart */
+#aboutUsSection{
+    background-color: #E9E9E9;
+    padding: 0px 40px;
+}
+    #aboutMaindiv{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    align-items: center;
+}
+#colorfulword{
+    color: #00D916;
+}
+#aboutUstextdiv>p{
+font-size: 23px;
+line-height: 32px;
+text-align: justify;
+}
+#aboutUstextdiv>button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #00D916;
+    color: #FDFDFD;
+    border: none;
+    border-radius: 10px;
+}
+#aboutUsimageDiv>img{
+    height: 95vh;
+}
+/* aboutUsSectionEnd */
+/* jobsSectionStart */
+
+
+#jobSection{
+    padding: 40px;
+   
+}
+.jobsectionCard{
+    box-shadow: 0px 0px 7px 0px gray;
+    background-color: #00D916;
+}
+#jobmainDiv{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.jobImageCard>img{
+    width: 400px;
+    height: 300px;
+} 
+.jobTextCard{
+    
+    padding: 20px;
+}
+.jobTextCard>button{
+padding: 10px 30px;
+background-color: #000000;
+color: #FDFDFD;
+font-size: 20px;
+}
+.jobTextCard>button:hover{
+    background-color: #000000;
+    transition: 1s;
+    border-color: blue;
+}
+    /* jobSectionEnd */
+    /* moreJobSection */
+    #moreJobSection{
+        margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#moreJobSection>button{
+  padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00D916;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+#moreJobSection>button:hover{
+    background-color: #11d024;
+    transition: 1s;
+}
+/* moreJobSectionend */
+    #contactUsSection{
+        padding: 40px 40px;
+    }
+    #contactMaindiv{
+        background-color:#D9D9D9;
+    }
+    #contactFormdiv{
+    }
+    /* jobSectionEnd
+    contactussectionStart */
+
+    #contactUsSection{
+        padding: 40px 40px;
+        background-color: #D9D9D9;
+    }
+
+    #contactUsMainDiv{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        align-items:center ;
+    }
+    #contactFormdiv>form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+       
+      
+       
+        
+    }
+    #contactImageDiv>img{
+height: 90vh;
+
+    }
+    input{
+        padding: 20px 90px;
+        background-color: #FFFFFF;
+       border: none;
+        border-radius: 7px;
+        font-size: 16px;
+      
+    }
+    input:hover{
+        background-color: #FFFFFF;
+        transition: 40sec;
+       
+    }
+    #submitbtn{
+        padding: 10px 20px;
+        background-color: #00D916;
+
+       }
+
+       #submitbtn:hover{
+        background-color: #07cb1b;
+        transition: 1s;
+       }
+       /* contactusSectionEnd */
+       /* footterSectionStart */
+       #footterSection{
+        padding: 0px 600px;
+        display: flex;
+        background-color: #000000;
+        color: #FFFFFF;
+        align-items: center;
+        gap: 20px;
+       }
